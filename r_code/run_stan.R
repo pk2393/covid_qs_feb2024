@@ -68,6 +68,3 @@ fit<-model$sample(
 )
 
 fit$cmdstan_diagnose()
-
-sampling_result_2 <- fit$draws()
-save(sampling_result_2, file = paste0("ils_wo_ba286_wo_jobs_alpha5_", Sys.Date(), ".RData"))
