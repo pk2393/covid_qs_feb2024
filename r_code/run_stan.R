@@ -48,7 +48,7 @@ data_stan=list(
 )
 
 #####
-stanfile=paste0("../stan_code/stan_model.stan")
+stanfile=paste0("../stan_code/main_model.stan")
 
 model <- cmdstanr::cmdstan_model(stanfile, force_recompile=T)
 
