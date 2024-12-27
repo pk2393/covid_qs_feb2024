@@ -74,7 +74,7 @@ model{
   // weighting
   weight_empty~uniform(0, 1e-2); // small weight to fill potentially empty elements
   
-  vector[N] alpha_prior = rep_vector(5, N); // pbeta(1/5K) <=.01
+  vector[N] alpha_prior = rep_vector(5, N); // pbeta(1/4K) <=.01
   // vector[N] alpha = rep_vector(3.85, N); // pbeta(1/5K) <=.01
   alpha ~ dirichlet(alpha_prior);
   
