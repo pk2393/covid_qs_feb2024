@@ -8,6 +8,7 @@ Submitted to: PLOS Computational Biology
 - r_code/ – R scripts for reading data, running inference on Stan, and testing the inference using sample data created by BN
 - sample_data_generate_code/ – Python scripts for generating synthetic sample data using BN
 - stan_code/ – Stan scripts used in this study, including sample codes for testing inference on sample data created by BN
+- results_population_distribution/ - Contains estimated population distributions (male/female age distribution by prefecture, male/female job category distribution by age group)
 
 ## GitHub Repository Link
 https://github.com/pk2393/covid_qs_feb2024
