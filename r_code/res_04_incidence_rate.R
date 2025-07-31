@@ -115,6 +115,6 @@ gg <- df_res_all %>%
 gg
 
 
-tiff("./results_feb_2024/Fig2_incidence_national_by_age.tiff", width = 9, height = 6, units = "in", res = 1000, compression = "lzw")
+tiff("path_tiff", width = 9, height = 6, units = "in", res = 1000, compression = "lzw")
 gg
 dev.off()
