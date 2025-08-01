@@ -57,6 +57,6 @@ df_plot_final%>%
 
 
 
-tiff("./results_feb_2024/Fig_Sxxx_time_since_imm.tiff", width = 12, height = 6, units = "in", res = 1000, compression = "lzw")
+tiff("path_tiff", width = 12, height = 6, units = "in", res = 1000, compression = "lzw")
 plot_time_since_imm
 dev.off()
