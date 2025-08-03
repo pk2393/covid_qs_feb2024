@@ -14,7 +14,7 @@ df_analysis%<>%
 load(file = "path_to_RData") # load cmdstan fit object
 
 prob_infection <- subset_draws(sampling_result_2, variable = "prob_infection")
-weight_adj <- subset_draws(sampling_result_2, variable = "weight_adj")
+weight_adj <- subset_draws(sampling_result_2, variable = "alpha")
 
 W     <- as_draws_matrix(weight_adj)
 prob_mat <- as_draws_matrix(prob_infection)
