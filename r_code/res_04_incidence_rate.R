@@ -20,7 +20,6 @@ W     <- as_draws_matrix(weight_adj)
 prob_mat <- as_draws_matrix(prob_infection)
 
 ############################
-df_merged->df_analysis
 df_analysis%<>%
   mutate(ID = 1:nrow(.))
 
