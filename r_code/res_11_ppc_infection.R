@@ -147,8 +147,8 @@ ppc_pref_counts <- bind_rows(summ_pref) %>%
     Observed   = obs_cnt,
     Pred_med   = round(med_cnt),
     `95%PrI_lower`  = round(lwr_cnt),
-    `95%PrI_lower`  = round(upr_cnt),
-    `Covered`  = ifelse(Observed >= `95%PrI_lower` & Observed <= `95%PrI_lower`, "Yes", "No") 
+    `95%PrI_upper`  = round(upr_cnt),
+    `Covered`  = ifelse(Observed >= `95%PrI_lower` & Observed <= `95%PrI_upper`, "Yes", "No") 
     )
 
 readr::write_csv(ppc_pref_counts, "path_csv")
