@@ -18,7 +18,6 @@ Urand      <- matrix(runif(length(prob_mat)), nrow = nrow(prob_mat))
 Y_rep  <- (Urand < prob_mat) * 1L  
 
 ############################
-df_merged->df_analysis
 df_analysis%<>%
   mutate(ID = 1:nrow(.))
 
