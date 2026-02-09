@@ -2,8 +2,8 @@ rm(list=ls())
 library(dplyr);library(magrittr);library(posterior)
 load(file = "path_to_RData") # load cmdstan fit object
 
-variable_list = c("alpha_infect_xbb", "alpha_infect_preX", "alpha_infect_wuhan", 
-                  "alpha_vax_xbb", "alpha_vax_bivalent", "alpha_vax_wuhan", 
+variable_list = c("v_infect_xbb", "v_infect_preX", "v_infect_wuhan", 
+                  "v_vax_xbb", "v_vax_bivalent", "v_vax_wuhan", 
                   "h1", "h2", "frac_short_infect", "frac_short_vax"
 )
 
