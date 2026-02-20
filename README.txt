@@ -4,8 +4,8 @@ Supplementary materials including sample codes and data for the paper:
 Submission to: PLOS Computational Biology
 
 ## Directories
-- data/ – Contains census data
-- r_code/ – R scripts for reading data, running inference on Stan
+- data/ – questionnaire and census data
+- r_code/ – R scripts for reading data
 - stan_code/ – Stan scripts used in this study
 - results/ - Contains results
 
